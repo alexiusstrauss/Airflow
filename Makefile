@@ -6,7 +6,7 @@ COMPOSE_COMMAND=$(shell command -v docker-compose >/dev/null 2>&1 && echo "docke
 
 
 build:
-	docker build -t airflow:2.6 .
+	docker build -t airflow:2.7 .
 
 init: build
 	$(COMPOSE_COMMAND) up airflow-init
