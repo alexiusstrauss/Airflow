@@ -1,4 +1,4 @@
-## Apache Airflow v 2.6.0-python3.10
+## Apache Airflow v 2.7.2-python3.10
 Contém um ambiente de desenvolvimento local do Apache Airflow e os workflows (DAGs).
 
 ### Requisitos mínimos
